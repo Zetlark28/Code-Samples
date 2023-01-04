@@ -1,0 +1,31 @@
+
+#document properties
+document:
+  base-path: ./resources
+  aws-s3-base-env-folder:  #s3 base folder without final /
+  aws-s3-base-url: https://<uri>.s3.<region>.amazonaws.com #used for s3
+  aws-s3-base-folder: #s3 base folder with final /
+
+#SDK info used for S3 integration
+aws:
+  access:
+    key:
+      id: #access key ID
+      secret: #key secret
+
+#S3 integration info
+s3:
+  region:
+    name: #region
+  bucket:
+    name: #bucket name
+
+#Cognito integration info
+com:
+  kb:
+    jwt:
+      aws:
+        userPoolId: #user pool id
+        region: #user pool region
+
+
