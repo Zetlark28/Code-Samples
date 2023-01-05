@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: irl-customizer
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/
+      auto-index-creation: true
+      database: test-sample
