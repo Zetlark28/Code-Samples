@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AWSIntegration/AWSIntegration.iml" filepath="$PROJECT_DIR$/AWSIntegration/AWSIntegration.iml" />
       <module fileurl="file://$PROJECT_DIR$/MongoDB/MongoDB.iml" filepath="$PROJECT_DIR$/MongoDB/MongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBatch/SpringBatch.iml" filepath="$PROJECT_DIR$/SpringBatch/SpringBatch.iml" />
     </modules>
   </component>
 </project>
